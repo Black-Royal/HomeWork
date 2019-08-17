@@ -64,6 +64,23 @@ height: 50px;
 }
 
 /*FOOTER*/
+nav::after{
+  content: "";
+  display: block;
+  height: 50px;
+  width: 1850px;
+  background: #e1e1e1;
+  position: absolute;
+  z-index: -1;
+}
+.dt a{
+  color: white;
+  display: block;
+  height: 50px;
+  padding: 0 50px;
+  text-decoration: none;
+  line-height: 50px;
+}
 footer p{
   font-size: 20px;
   text-align: right;
