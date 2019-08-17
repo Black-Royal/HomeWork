@@ -64,6 +64,15 @@ height: 50px;
 }
 
 /*FOOTER*/
+nav.th:after{
+  content: "";
+  display: block;
+  height: 50px;
+  width: 1850px;
+  background: #e1e1e1;
+  position: absolute;
+  z-index: -1;
+}
 .dt a{
   color: black;
   display: block;
