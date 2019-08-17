@@ -74,7 +74,7 @@ nav::after{
   z-index: -1;
 }
 .dt a{
-  color: white;
+  color: black;
   display: block;
   height: 50px;
   padding: 0 50px;
